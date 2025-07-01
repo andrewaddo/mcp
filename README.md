@@ -5,6 +5,7 @@
 1. Configure your mcp servers
    1. Local servers
    In ~/.gemini/settings.json, add the following lines
+
    ```json
    "mcpServers": {
     "cloud-run": {
@@ -13,5 +14,5 @@
     }
    }
    ```
-   
+
    1. Restart Gemini CLI if it is running. Otherwise, Gemini CLI won't start the local server and won't recognize there is an MCP to use.
